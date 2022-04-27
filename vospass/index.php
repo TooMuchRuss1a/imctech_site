@@ -15,7 +15,7 @@ if (isset($_REQUEST['Submit'])) {
     $email = $_REQUEST['email'];
     if (strpos($_REQUEST['email'], 'dvfu.ru') == true) {
         if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']) {
-            $secret = '6LcYs80eAAAAADvFWZdflvdgOvR1sQCCyrqUsugE';
+            $secret = '';
             $ip = $_SERVER['REMOTE_ADDR'];
             $response = $_POST['g-recaptcha-response'];
             $rsp = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$ip");
