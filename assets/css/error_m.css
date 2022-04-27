@@ -1,0 +1,17 @@
+body {
+  background: 
+  url(/assets/images/bgbig.png) center no-repeat;
+  background-size: cover;
+}
+
+  .errorpagename {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .errorpagetext {
+    font-size: 0.4rem;
+    text-align: center;
+  }

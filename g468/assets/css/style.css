@@ -1,0 +1,227 @@
+html{
+  font-size: 100px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: 
+  url(/assets/images/bgbig.png) center no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  height: auto;
+  bottom: 0;
+}
+
+.reg-box {
+  height: auto;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 460px;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.reg-box div {
+  font-size: 0.4rem;
+  margin: 0 0 20px;
+  padding: 0;
+  color: #fff;
+  text-align: start;
+}
+
+.regname {
+  font-weight: 700;
+}
+
+.reg-box div div {
+  opacity: 1;
+  font-weight: 400;
+  padding: 0 0;
+  font-size: 0.18rem;
+  color: rgb(255, 40, 40);
+  transition: .5s;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.reg-box .user-box {
+  font-weight: 400;
+  position: relative;
+}
+
+.reg-box .user-box input {
+  width: 100%;
+  padding: 2px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.reg-box .user-box textarea {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  width: 100%;
+  padding: 4px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  resize: vertical;
+  max-height: 20vh;
+}
+
+textarea:-moz-placeholder { color: rgb(200, 200, 200); }
+textarea::-webkit-input-placeholder { color: rgb(200, 200, 200); }
+
+
+.reg-box .user-box option {
+  width: 100%;
+  padding: 2px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.reg-box .user-box textarea ~ label {
+  top: 0px;
+}
+
+.reg-box .user-box select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  padding: 2px 0;
+  font-size: 0.18rem;
+  color: #fff;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.reg-box .user-box option {
+  background-color: #222;
+}
+
+.reg-box .user-box label {
+  position: absolute;
+  top:20px;
+  left: 4px;
+  padding: 2px 0;
+  font-size: 0.18rem;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.reg-box .user-box div {
+  position: absolute;
+  opacity: 0.6;
+  font-weight: 400;
+  top:20px;
+  right: 0;
+  padding: 6px 0;
+  font-size: 0.13rem;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.reg-box a {
+  position: absolute;
+  opacity: 1;
+  font-weight: 700;
+  font-size: 0.16rem;
+  color: rgb(160, 160, 255);
+  transition: .5s;
+  text-decoration: none;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.reg-box a:hover {
+  opacity: 0.5;
+}
+
+.reg-box .user-box input:focus ~ label,
+.reg-box .user-box input:valid ~ label {
+  top: 2px;
+  left: 4px;
+  opacity: 0.5;
+  font-size: 0.14rem;
+}
+.reg-box .user-box input:focus ~ div,
+.reg-box .user-box input:valid ~ div {
+  opacity: 0;
+}
+
+.reg-box .user-box textarea:focus ~ label,
+.reg-box .user-box textarea:valid ~ label {
+  opacity: 0;
+}
+
+.reg-box .user-box select:focus ~ label,
+.reg-box .user-box select:valid ~ label {
+  top: 2px;
+  left: 4px;
+  opacity: 0.5;
+  font-size: 0.14rem;
+}
+.reg-box .user-box select:focus ~ div,
+.reg-box .user-box select:valid ~ div {
+  opacity: 0;
+}
+
+.prikol {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: block;
+  vertical-align: top;
+  padding: 8px 28px;
+  cursor: pointer;
+
+  border: 2px solid white;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+  text-transform: uppercase;
+  text-decoration: 0;
+  font-size: 0.18rem;
+  font-weight: 600;
+
+  -webkit-transition: color .2s linear, background .1s linear;
+  background-color: transparent;
+  
+}
+
+.prikol:hover {
+  background-color: white;
+  color: #666;
+}
