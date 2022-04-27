@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/assets/images/fox.png">
+    <link rel="stylesheet" href="/assets/css/main_style.css?version=3.2<?php echo get_cache_prevent_string(); ?>">
+    <link rel="stylesheet" href="assets/css/style.css?version=3.2<?php echo get_cache_prevent_string(); ?>">
+    <link rel="stylesheet" type="text/css" media="(orientation: portrait)" href="/assets/css/main_mobile.css?version=3.2<?php echo get_cache_prevent_string(); ?>">
+    <link rel="stylesheet" type="text/css" media="(orientation: portrait)" href="assets/css/mobile.css?version=3.2<?php echo get_cache_prevent_string(); ?>">
+    <link rel="stylesheet" type="text/css" media="(orientation: landscape)" href="assets/css/style.css?version=3.2<?php echo get_cache_prevent_string(); ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="/assets/js/loading.js"></script>
+    <script src="/assets/js/dropdown.js"></script>
+
+    <title>IMCTech - Регистрация</title>
+</head>
+
+<body>
+
+    <div class="se-pre-con">
+      <div class="gooey">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <header id="nav" class="header">
+      <div class="header_inner">
+        <div class="header_logo">
+          <a class="header_logo_link" href="#"><img class="header_logoimg" src="/assets/images/logos/imctech.png"><text> IMCTech</text></a>
+        </div>
+        <div class="nav">
+          <div class="dropdown1">
+            <button onclick="myFunction()" class="dropbtn1" style="color:rgb(255,50,50);">'.$login.'</button>
+            <div id="myDropdown1" class="dropdown1-content">
+            <div class="dd-text" style="color:rgb(255,50,50);">вы заблокированы</div>
+            <div class="dd-text-description" style="color:rgb(255,50,50);">'.$row['ban'].'</div>
+            <div class="dd-text"><a href="https://imctech.ru/login/unlogin.php">Выход</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="box-profile">
+      <div class="box-profile-container">
+            <h1 class="box-profile-name">Профиль</h1>
+            <div class="box-profile-fio">Иванов Иван Иванович</div>
+
+            <div class="box-profile-text">Б9121-09.03.03пиэ</div>
+
+            <div class="box-profile-text"><a rel="noopener noreferrer" target="_blank" href="https:vk.com//toomuchrussia" class="link">https:vk.com//toomuchrussia</a></div>
+
+            <div class="box-profile-text"><a href="mailto:support@demyanov.vv@students.dvfu.ru" class="link">demyanov.vv@students.dvfu.ru</a></div>
+
+            <div class="box-profile-text">TgID: 1234567890</div>
+      </div>
+      <div class="underprofile">
+      <div class="activity">
+        <div class="sps2022">Весенняя проектная школа <div>Проект: Сбербанк заказ</div>  <div>2022</div></div>
+        <div class="wps2022">Зимняя проектная школа <div>Проект: Сбербанк заказ</div>  <div>2022</div></div>
+      </div>
+
+      <div class="zayavki">
+        <div class="zayavka">
+          <div class="zayavka-name">Заявка №123</div>
+          <div class="zayavka-time">22.02.2022 18:00-19:00</div>
+          <div class="zayavka-verdict">Одобрено</div>
+        </div>
+        <div class="zayavka">
+          <div class="zayavka-name">Заявка №123</div>
+          <div class="zayavka-time">22.02.2022 18:00-19:00</div>
+          <div class="zayavka-verdict">Одобрено</div>
+        </div>
+        <div class="zayavka">
+          <div class="zayavka-name">Заявка №123</div>
+          <div class="zayavka-time">22.02.2022 18:00-19:00</div>
+          <div class="zayavka-verdict"><text>Одобрено</text></div>
+        </div>
+        <div class="zayavka">
+          <div class="zayavka-name">Заявка №123</div>
+          <div class="zayavka-time">22.02.2022 18:00-19:00</div>
+          <div class="zayavka-verdict">Одобрено</div>
+        </div>
+        <div class="more"><a class="link" href="https://imctech.ru/g468">+</a></div>
+
+      </div>
+    </div>
+
+    </div>
+</body>
+</html>

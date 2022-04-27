@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  color: white;
+  background: #000;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: 
+  url(/assets/images/bgbig.png) center no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 40px;
+  position: relative;
+  display: block;
+  vertical-align: top;
+  padding: 8px 28px;
+  cursor: pointer;
+  text-align: center;
+
+  border: 2px solid white;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+  text-transform: uppercase;
+  text-decoration: 0;
+  font-size: 0.18rem;
+  font-weight: 600;
+
+  -webkit-transition: color .2s linear, background .1s linear;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #666;
+}
+
+.thx {
+  position: relative;
+  width:20%;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  align-items: center;
+
+  background-color: rgba(0,0,0,0.4);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.thx-container{
+  width: 26vmax;
+  font-size: 0.2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thx-container img{
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.thx-name{
+  font-weight: 700;
+  margin-top: 1vmax;
+  position: relative;
+  font-size: 0.32rem;
+  text-align: center;
+  margin-bottom: 1vmax;
+}
+
+.thx-text{
+  line-height: 1.5;
+  position: relative;
+  font-size: 0.2rem;
+  margin-left: 0;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  height: auto;
+  bottom: 0;
+}

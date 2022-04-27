@@ -1,0 +1,214 @@
+html {
+  background: 
+  url(/assets/images/bgbig.png) center no-repeat;
+  background-size: 100vh;
+  }
+  
+  .command {
+    color: rgb(160, 160, 255);
+  }
+  
+  .footer {
+    position: fixed;
+    height: auto;
+    bottom: 0;
+  }
+  
+  .box-profile {
+    position: relative;
+    border-radius: 10px;
+    width:90%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  
+    margin-top: 12vh;
+    padding-bottom: 4px;
+    margin-bottom: 40px;
+  }
+  
+  .box-profile-container{
+    width: 100%;
+    font-size: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box-profile-container img{
+    height: 60%;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .box-profile-name{
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 2vh;
+    font-size: 0.4rem;
+    text-align: center;
+  }
+  
+  .box-profile-fio{
+    line-height: 1.5;
+    position: relative;
+    font-size: 0.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .box-profile-text{
+    line-height: 1.5;
+    position: relative;
+    font-size: 0.2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .box-profile-text-description{
+    line-height: 1.5;
+    position: relative;
+    font-size: 0.2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .zayavki {
+    display:block;
+    justify-content: space-between;
+    align-items:baseline;
+    width: 100%;
+    overflow: hidden;  
+  }
+  
+  .zayavka {
+    background-color: #222;
+    height: auto;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .zayavka-name {
+    margin-top: 0.4vh;
+    font-weight: 700;
+    position: relative;
+    font-size: 0.24rem;
+    text-align: center;
+  }
+  
+  .zayavka-time {
+    margin-top: 0.4vh;
+    position: relative;
+    font-size: 0.2rem;
+    text-align: center;
+  }
+  
+  .zayavka-comment {
+    margin-left: 0.2vmax;
+    margin-right: 0.2vmax;
+    margin-top: 0.4vh;
+    position: relative;
+    font-size: 0.14rem;
+    text-align: start;
+    height: 62px;
+    overflow: hidden;
+    font-style: italic;
+  }
+  
+  .zayavka-verdict {
+    margin-top: 0.4vh;
+    position: relative;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .zayavka-verdict text {
+    border-radius: 10px;
+    padding: 0px 10px;
+  }
+  
+  
+
+  .more {
+    margin-left: 0;
+    font-size: 0.6rem;
+  }
+
+  .activity {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .sps2022 {
+    background: 
+    url(/assets/images/afishaa.jpg) center no-repeat;
+    background-size: 130%;
+    width: 90%;
+    height: 52px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 0.26rem;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 10px;
+    filter: grayscale(0.3);
+    transition: 1s;
+  }
+  
+  .sps2022:hover {
+    background-size: 130%;
+    filter: grayscale(0.3);
+  }
+
+  .sps2022 div{
+   font-size: 0.2rem;
+  }
+
+  .wps2022 {
+    background: 
+    url(/assets/images/wps2022.jpg) center no-repeat;
+    background-size: 120%;
+    width: 90%;
+    height: 52px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 0.26rem;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 10px;
+    filter: grayscale(0.2);
+    transition: 1s;
+  }
+  
+  .wps2022:hover {
+    background-size: 120%;
+    filter: grayscale(0.2);
+  }
+
+  .wps2022 div{
+    font-size: 0.2rem;
+  }
+
+  .underprofile {
+    margin-top: 1vh;
+    display: table;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 1%;
+  }
